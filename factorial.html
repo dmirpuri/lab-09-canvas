@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+
+var number = prompt ("Number please:");
+
+function factorial(number) {
+	
+	number = parseInt (number);
+	var fact = 1;
+	for (var i = 1; i <= number; i++) {
+		console.log(i)
+		fact = fact * i;
+	}
+	
+	
+	return fact;
+
+}
+
+
+var result = factorial(number);
+console.log (result);
+
+</script>
+</body>
+</html>
